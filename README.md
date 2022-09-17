@@ -47,14 +47,62 @@ Reffer this doc:- https://www.mavenwave.com/blog/trends_cloud_migration_financia
 - files uploaded successfully 
 <img width="1324" alt="image" src="https://user-images.githubusercontent.com/63963025/189472827-1e9d167f-7689-49e1-935d-6b6bb2faa117.png">
 
+### Step 2 Create GCS Bucket 
+- Create bucket 
+<img width="1394" alt="image" src="https://user-images.githubusercontent.com/63963025/190841318-44cfc7a5-8136-4ae2-9afb-aca75297964a.png">
 
-### Step 2 Create Storage transfer job 
+- Bucket name 
+<img width="554" alt="image" src="https://user-images.githubusercontent.com/63963025/190841349-6d5d1ff7-9466-4f78-9e86-282fb145e02b.png">
+
+- Select regional bucket i am using <b>asia-south1(Mumbai)</b>  
+<img width="544" alt="image" src="https://user-images.githubusercontent.com/63963025/190841363-e0a88c66-df78-4494-a0d2-e4c647bf0702.png">
+
+- Select storage Class <b>Standard</b>
+<img width="544" alt="image" src="https://user-images.githubusercontent.com/63963025/190841408-eee8a574-01fb-4f8f-b698-bf03aaceb13d.png">
+
+- Control object level permission in my case i am using uniform giving Bucket level permission 
+<img width="543" alt="image" src="https://user-images.githubusercontent.com/63963025/190841443-44e7c69a-c9e9-4c6e-a88d-b75c9e370888.png">
+
+- Go to GCP console 
+<img width="1377" alt="image" src="https://user-images.githubusercontent.com/63963025/190840749-a2426fd7-e8f7-4aee-a40d-f5f46f471c66.png">
+
+- All default create Bucket 
+<img width="1109" alt="image" src="https://user-images.githubusercontent.com/63963025/190841479-242b7409-84c3-45da-8e45-bfc455ee0e03.png">
+
+
+### Step 3 Create Storage transfer job 
 
 ### What is Storage Transfer Service?
 Data Transfer Service is a product that enables users to: Move or backup data to a Cloud Storage bucket from other cloud storage providers or on-premises storage. Move data from one Cloud Storage bucket to another to be available to different groups of users or applications
 
 Reffer this doc:- https://cloud.google.com/storage-transfer/docs/overview
 
-- Go to GCP console 
+- Search for Data transfer
+<img width="1108" alt="image" src="https://user-images.githubusercontent.com/63963025/190840871-181fd986-e823-4fc4-a6b0-211a4b735823.png">
+
+- Create Transfer job 
+<img width="1390" alt="image" src="https://user-images.githubusercontent.com/63963025/190841133-c5e4ff15-8fe4-4a5c-b844-10346cb91877.png">
+
+- Select source and Destination of bucket
+<img width="964" alt="image" src="https://user-images.githubusercontent.com/63963025/190841168-158e44b2-944c-4262-a531-1157ed45edd4.png">
+
+- Now Go to AWS Console IAM --> Create a User --> attach policy --> AmazonS3FullAccess 
+<img width="904" alt="image" src="https://user-images.githubusercontent.com/63963025/190842300-ae779c64-b1ff-4007-a85b-20492400d88b.png">
+
+
+<img width="1033" alt="image" src="https://user-images.githubusercontent.com/63963025/190842332-17ac37e3-085d-4fc2-9bab-4abb50b72d3a.png">
+
+
+<img width="1063" alt="image" src="https://user-images.githubusercontent.com/63963025/190842408-b44db220-8b08-4796-a501-5cd5a84e0257.png">
+
+- Create user 
+
+<img width="1033" alt="image" src="https://user-images.githubusercontent.com/63963025/190842425-3b9102a3-73a4-4855-8924-a50569e3b51c.png">
+
+- Copy Access-key Secret-key and paste to Data transfer job <b> Do not Share this key to anyone </b>
+<img width="997" alt="image" src="https://user-images.githubusercontent.com/63963025/190842472-058c9d26-a2fb-47f1-9b67-c4cd002ef8f6.png">
+
+
+ <img width="949" alt="image" src="https://user-images.githubusercontent.com/63963025/190842567-c290d064-1000-4ced-99c2-70cd334217f1.png">
 
 
