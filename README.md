@@ -119,8 +119,8 @@ Reffer this doc:- https://cloud.google.com/storage-transfer/docs/overview
 <img width="1125" alt="image" src="https://user-images.githubusercontent.com/63963025/190842733-808241b0-e30a-4ea4-a33e-ab1eb980b058.png">
 
 
-- We have successfully migrated our data using Data-transfer Service 
 
 <img width="1140" alt="image" src="https://user-images.githubusercontent.com/63963025/190842756-e49a522b-70e0-4b19-bfa8-a0e47644f8e1.png">
 
 
+### We have successfully migrated our data using Data-transfer Service 
