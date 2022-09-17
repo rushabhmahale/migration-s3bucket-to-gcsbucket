@@ -105,4 +105,22 @@ Reffer this doc:- https://cloud.google.com/storage-transfer/docs/overview
 
  <img width="949" alt="image" src="https://user-images.githubusercontent.com/63963025/190842567-c290d064-1000-4ced-99c2-70cd334217f1.png">
 
+- Select Destination Bucket 
+<img width="465" alt="image" src="https://user-images.githubusercontent.com/63963025/190842620-0518a85d-10ed-47d1-a4c7-57b4a25a61b0.png">
+
+<img width="557" alt="image" src="https://user-images.githubusercontent.com/63963025/190842636-a067bb82-a9a7-411b-8205-495f7ad6c9c5.png">
+
+- In my case i will Run once you can schedule your job according to your usecase 
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/63963025/190842645-b5f773eb-e16b-4bbb-9d08-0be73daeb1cf.png">
+
+
+- job completed Successfully  
+
+<img width="1125" alt="image" src="https://user-images.githubusercontent.com/63963025/190842733-808241b0-e30a-4ea4-a33e-ab1eb980b058.png">
+
+
+- We have successfully migrated our data using Data-transfer Service 
+
+<img width="1140" alt="image" src="https://user-images.githubusercontent.com/63963025/190842756-e49a522b-70e0-4b19-bfa8-a0e47644f8e1.png">
+
 
